@@ -1,13 +1,11 @@
-// Current Day Display using MOMENT
-$("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
-
-
+var now = moment().format('MMMM Do YYYY, h:mm a');
+$("#currentDay").text(now);
 
 
 
 // Store user input 
 
-function toDoEvent() { 
+function toDoEvent(event) { 
 var userInput = $(this).siblings("input").val().trim();
 var hourId = $(this).siblings("input").attr("id");
 
@@ -17,7 +15,8 @@ console.log("user input")
 
 }
 
-$(".saveBTN").on("click", toDoEvent)
+$(".saveBtn").on("click", toDoEvent)
+
 
 
 
