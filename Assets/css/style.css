@@ -44,17 +44,17 @@ textarea{
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: red;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: lightblue;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color:yellow;
   color: white;
 }
 
@@ -89,4 +89,6 @@ textarea{
   height: 45px;
   margin-left: 30px;
   margin-top: 20px;
+  color: black;
+  
 }
