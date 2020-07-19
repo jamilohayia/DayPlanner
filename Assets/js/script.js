@@ -34,7 +34,3 @@ $("#clear").click(function () {
     location.reload();
     console.log("clicked")
 });
-
-
-
-

@@ -28,6 +28,7 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  
 }
 
 .row {
@@ -81,4 +82,11 @@ textarea{
 #clear {
   margin-top: 20px;
   background-color: royalblue;
+}
+
+.hourInput {
+  width: 80%;
+  height: 45px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
