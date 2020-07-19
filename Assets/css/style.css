@@ -69,3 +69,16 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+#currentDay {
+  color: red;
+}
+
+.hour {
+  text-align: center;
+}
+
+#clear {
+  margin-top: 20px;
+  background-color: royalblue;
+}

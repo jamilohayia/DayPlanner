@@ -14,7 +14,9 @@
   <title>Work Day Scheduler</title>
 </head>
 
+
 <body>
+  <!-- Jumbotron Header -->
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -22,9 +24,8 @@
 
   </header>
 
-
-
   <div class="container">
+    
     <!-- Timeblocks go here -->
 
     <p class="hour">9:00 AM
@@ -55,12 +56,16 @@
       <input type="text" class="hourInput" id="9" data-index="9">
       <input data-index="9" type="button" value="Save" class="saveBtn" </p>
 
-
-
   </div>
 
-  
+  <!-- Clear button -->
+  <button id="clear"> Clear Schedule </button>
+
+
+  <!-- Moment.JS link -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+  <!-- JS script file  -->
   <script src="./Assets/js/script.js"></script>
 </body>
 
